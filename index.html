@@ -1,22 +1,4 @@
-<?php //use home page for server ERROR pages -- set in .htaccess
-if (isset($_REQUEST['e']))
-	{
-		$errortext=array (
-			'400'=> '<h1 style="color:#a00">Error 400 &mdash; Bad Request</h1><p>The request cannot be fulfilled due to bad syntax.</p>',
-			'401'=> '<h1 class="is-size-1" style="color:#a00">Error 401 &mdash; Unauthorized</h1>',
-			'402'=> '<h1 class="is-size-1" style="color:#a00">Error 402 &mdash; Payment Required</h1>',
-			'403'=> '<h1 class="is-size-1" style="color:#a00">Error 403 &mdash; Forbidden</h1>',
-			'404'=> '<h1 class="is-size-1" style="color:#a00">Error 404 &mdash; Page Not Found</h1><p>There may be an error in the address.</p>',
-			'500'=> '<h1 class="is-size-1" style="color:#a00">Error 500 &mdash; Internal Server Error</h1><p>Try again in a minute.</p>'
-			);
-		if (isset($errortext[$_REQUEST['e']])){
-		$error=$errortext[$_REQUEST['e']];
-		}else{
-			$error='<h1>Error'.$_REQUEST['e'].'</h1>';
-
-		}
-	}
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8"/>
@@ -41,15 +23,7 @@ if (isset($_REQUEST['e']))
 
 </head>
 <body>
-<?php //use home page for server ERROR pages -- set in .htaccess
-if (isset($_REQUEST['e']))
-{
-echo '
-	<div style="padding:2rem;background-color:#336633;">
-		<div style="color:#a00;padding:2em;border:10px solid #aa0;background-color:#ff0;">'.$error.'</div>
-	</div>
-';}
-?>
+
 <div class="container" style="padding-top: .75rem;">
 	<div id="header" class="margin-bottom">
 		<nav class="nav columns">
