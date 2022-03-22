@@ -52,11 +52,11 @@ Tel: 06.9360201</p>
       <p><img src="/images/autvsmaj.jpg" width="700" height="534" alt="Authority vs Majority"></p>
       <p><a href="frank_craven.html">Awards</a></p>
       <p><a href="actor.html">Actor</a></p>
-      <p><a href="philosophy.htm">Philosophy</a></p>
-      <p><a href="poetry_scripts.htm">Poetry &amp; Scripts</a></p>
-      <p><a href="videos.htm">Movies &amp; Videos </a></p>
-      <p><a href="upcoming_events.htm">Upcoming Events</a></p>
-      <p><a href="music.htm">Music Workshop Parade</a> </p>
+      <p><a href="philosophy.html">Philosophy</a></p>
+      <p><a href="poetry_scripts.html">Poetry &amp; Scripts</a></p>
+      <p><a href="videos.html">Movies &amp; Videos </a></p>
+      <p><a href="upcoming_events.html">Upcoming Events</a></p>
+      <p><a href="music.html">Music Workshop Parade</a> </p>
       <p><a href="Gallery.html">Art</a></p>
 
       <div style="text-align:center;"><a href="mailto:frankcraven2018@gmail.com"><img src="/images/mailcloud.gif" width="65" height="26" alt="email" border="0"></a>
