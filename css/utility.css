@@ -1,0 +1,147 @@
+
+/* Utility */
+.pdf-download {
+	background: url(file-pdf.png) no-repeat left top;
+	padding: 3px 3px 3px 20px;
+	line-height:20px;
+	}
+.word-download {
+	background: url(word-icon-download.gif) no-repeat left top;
+	padding: 3px 3px 3px 20px;
+	line-height:20px;
+	}
+/* responsive youtube container http://avexdesigns.com/responsive-youtube-embed/ */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* helpers */
+.image-right {
+	float:right;
+	margin: .2em 0 .2em 1em;
+	}
+.image-left {
+	float:left;
+	margin: .2em 1em .2em 0;
+	}
+.margin {
+	margin:1em;
+	}
+.margin-left {
+	margin-left:1em;
+	}
+.margin-right {
+	margin-right:1em;
+	}
+.margin-top {
+	margin-top:1em;
+	}
+.margin-bottom {
+	margin-bottom:1em;
+	}
+.padding {
+	padding:1em;
+	}
+.padding-bottom {
+	padding-bottom:1em;
+	}
+.padding-left {
+	padding-left:1em;
+	}
+.padding-right {
+	padding-right:1em;
+	}
+.padding-top {
+	padding-top:1em;
+	}
+.right {float:right;}
+.left {float:left;}
+.left-align{text-align:left;}
+.right-align{text-align:right;}
+
+.red-on-white {
+	color:#ff3135;
+	}
+.smaller {
+	font-size:87.5%;
+}
+.small-caps{
+	font-variant:small-caps;
+	}
+.all-caps{
+	font-variant:uppercase;
+	}
+.normal {
+	font-style:normal;
+	}
+.bold {
+	font-style:bold;
+	}
+.border-top{
+	border-top:1px solid #ccc;
+	}
+.border-bottom{
+	border-bottom:1px solid #ccc;
+	}
+
+.image-border img,
+.border{
+	border:1px solid #ccc;
+	}
+.shadow-outline {
+	-moz-box-shadow:    0 0 5px 6px #aaa;
+  	-webkit-box-shadow: 0 0 5px 6px #aaa;
+  	box-shadow:         0 0 5px 6px #aaa;
+  	}
+.center{
+	text-align:center;
+	}
+
+.table {
+	display:table;
+	}
+.table-row {
+	display:table-row;
+	}
+.table-cell {
+	display:table-cell;
+	}
+blockquote{
+  display:block;
+    margin: 0px 0px 1.25rem;
+    padding: 0.5625rem 2rem 0px 3rem;
+    border-left: none;
+  margin: 0 0 2rem;
+  position: relative;
+  }
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:-12px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
